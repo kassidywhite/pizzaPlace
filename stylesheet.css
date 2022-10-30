@@ -1,0 +1,95 @@
+*{
+    font-family: Georgia;
+}
+.logo{
+    font-family: Georgia;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+
+h6{
+  font-style: italic;
+}
+
+
+
+.row{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-bottom: double;
+}
+.col{
+}
+* {
+  box-sizing: border-box;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: left;
+  align-items:center;
+  justify-content:center;
+  font: serif;
+  font-size: 1em;
+}
+
+.flex-item-left {
+   flex: 50%;
+  padding: 5px;
+  display: flex;
+    justify-content:center;
+  align-content: center;
+}
+
+.flex-item-right {
+   flex: 50%;
+  padding: 5px;
+  display: flex;
+  justify-content:center;
+  align-content: center;
+}
+.aboutme{
+  justify-content:flex-start;
+  align-content: flex-start;
+  padding-left: 2px;
+  padding-right:2px;
+}
+}
+.aboutmetitle{
+    color: black;
+    margin: 5px;
+    align-content:center;
+    justify-content:center;
+}
+.aboutmeinfo{
+    font-size: .2em;
+    color: black;
+    margin:5px;
+    padding-right: 10px;
+    align-content: left;
+    justify-content:center;
+}
+
+
+img{
+  width: 50%;
+  height:auto;
+  display:flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  object-fit: contain;
+}
+
+
+@media (max-width: 800px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
+  .jumbotron{
+    height: auto;
+  }
+}
